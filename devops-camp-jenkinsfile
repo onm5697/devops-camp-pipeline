@@ -34,7 +34,6 @@ pipeline {
                     }
                 }
             }
-        }
             post {
                 always {
                     echo "Clean local $APP_IMAGE_NAME image"
@@ -61,7 +60,6 @@ pipeline {
                     }
                 }
             }
-        }
             post {
                 always {
                     echo "Clean local $DB_IMAGE_NAME image"
@@ -93,4 +91,3 @@ pipeline {
         }
     }
 }
-
